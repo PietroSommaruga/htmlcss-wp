@@ -3,10 +3,11 @@
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height: 12px;
 }
 
 .container{
-    width: 800px;
+    width: 600px;
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -39,7 +40,7 @@ ul li a:hover{
 }
 /*// nav */
 
-/* main */
+/* prima parte main */
 .primo {
     margin-top: 20px;
     width: 100%;
@@ -55,38 +56,42 @@ ul li a:hover{
     width: 50%;
     height: 60px;
     position: absolute;
-    bottom: 100px;
+    bottom: 60px;
     left: 50px;
-    color:rgb(192, 192, 192) ; line-height: auto;
+    color:rgb(192, 192, 192); 
 }
 
 h4{
     font-size: 20px;
+    line-height: 20px;
 }
 span{
-    font-size: 10px;
-}
-
-.viola{
-    width: 100%;
-    height: 100px;
+    font-size: 12px;
     
-    background-color: purple;
 }
+/*// prima parte main */
 
-.blu{
+
+/* seconda parte main */
+.container-2{
     margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: blue;
-
-
+    margin-bottom: 20px;    
+    /* border: 2px solid black; */
 }
-.primo-blu{
-    width: 100%;
-    height: 50px;
-    margin-bottom: 20px;
-    background-color: rgba(49, 245, 251, 0.596);
 
+.leadership{
+    width: 100%;
+    height: 70px;
+    color:rgb(192, 192, 192); 
+}
+
+h2{
+    line-height: 25px;
+    color: black;
+}
+
+.sottotitolo{
+    color:rgb(192, 192, 192); 
 }
 
 .row::after {
@@ -95,26 +100,70 @@ span{
     clear: both;
 }
 
+.fl{
+    float: left;
+    height: 100px;
+    border-radius: 10px;
+    line-height: 10px;
+    color:rgb(192, 192, 192); 
+    /* border: 2px solid black; */
+}
+
+.fl-2{
+    float: left;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 10px;
+    color:rgb(192, 192, 192); 
+    /* border: 2px solid black; */
+}
+
 .row-1 {
     margin-right: 20px;
-    float:left;
-    background-color: rgba(49, 245, 251, 0.596);
-    height: 300px;
-    width: 25%;
+    width: 20%;
+    background-image: url(../img/img-1.jpg);
+    background-size: 100%;
+    background-position: center;
 }
+
 
 .row-2 {
-    float:left;
-    background-color: rgba(49, 245, 251, 0.596);
-    width: calc(50% - 40px);
+    width: calc(60% - 40px);
     margin-right: 20px;
-    height: 300px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: 100%;
+    background-position: center;
 }
-
 
 .row-3{
-        float:left;
-        background-color: rgba(49, 245, 251, 0.596);
-        height: 300px;
-        width: 25%;
+    width: 20%;
+    background-image: url(../img/img-3.jpg);
+    background-size: 150%;
+    background-position: center;
 }
+h5{
+    line-height: 30px;
+    color: black;
+}
+
+.row-4 {
+    margin-right: 20px;
+    width: 20%;
+}
+
+.row-5 {
+    width: calc(60% - 40px);
+    margin-right: 20px;
+}
+
+.row-6{
+    width: 20%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+
